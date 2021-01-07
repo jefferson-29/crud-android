@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Curriculum">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Curriculum vitae"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/captura"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perfil"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Técnico de software, formado con principios éticos y valores, capaz de dar soluciones a todo tipo de problemas planteados.  Capacidad de aprendizaje, liderazgo, entrega y responsabilidad. Habilidad para trabajar en equipo. Facilidad para el aprendizaje de nuevas herramientas. Buenas relaciones interpersonales. Responsable, creativo, organizado, honrado. Capacidad de realizar trabajos de alta complejidad con rapidez."
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:justificationMode="inter_word" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Preparación en Disciplinas Deportivas"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cuento en la actualidad con más 10 años en la práctica de Ninjutsu tradicional,
+Adquiriendo conocimientos y destrezas hasta el día de hoy, he obtenido
+el cinturón rojo de esta disciplina.
+
+Integro la asociación de Japan Ninjutsu Federation desde el mismo
+tiempo en referencia.
+
+Practicante de kick-boxing durante 10 años."
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:padding="15dp"
+                android:justificationMode="inter_word" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

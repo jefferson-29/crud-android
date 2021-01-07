@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Crud de Prueba</string>
+    <string name="name"> Nombres </string>
+    <string name="apellido"> Apellidos </string>
+    <string name="email"> email </string>
+    <string name="password"> contraseña </string>
+    <string name="title_activity_navegation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="crud">crud</string>
+    <string name="recordatorio">Recordatorios</string>
+    <string name="curriculum">Curriculum</string>
+    <string name="otros">Otros</string>
+</resources>

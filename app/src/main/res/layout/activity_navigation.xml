@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    tools:context=".Navigation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a mi Aplicación de presentación"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/curriculum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp"
+        android:background="#8BC34A"
+        android:paddingTop="25dp"
+        android:text="@string/curriculum"
+        android:textSize="25dp"
+        app:icon="@drawable/ic_curriculum" />
+
+    <Button
+        android:id="@+id/crud"
+        android:layout_width="match_parent"
+        android:paddingTop="25dp"
+        android:layout_marginTop="224dp"
+        android:layout_height="wrap_content"
+        android:text="@string/crud"
+        app:icon="@drawable/ic_crud"
+        android:background = "#00BCD4"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/recordatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="87dp"
+        android:background="#FF9800"
+        android:paddingTop="25dp"
+        android:pointerIcon="text"
+        android:text="@string/recordatorio"
+        android:textSize="25dp"
+        app:icon="@drawable/ic_baseline_watch_later_24" />
+
+    <Button
+        android:id="@+id/otros"
+        android:layout_width="match_parent"
+        android:paddingTop="25dp"
+        android:layout_marginTop="293dp"
+        android:layout_height="wrap_content"
+        android:text="@string/otros"
+        app:icon="@drawable/ic_otros"
+        android:background = "#009688"
+        android:textSize="25dp"/>
+</RelativeLayout>
